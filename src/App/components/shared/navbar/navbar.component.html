@@ -1,0 +1,36 @@
+<div id="fondo">
+</div>
+<div class="content">
+    
+    <div class="box">
+        <div class="container-1">
+            <input type="search" id="search" placeholder="Buscar..." />
+            <button class="icon"><i class="fa fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="loreg">
+        <a class="navbar-brand" [routerLink]="['/login']">INICIAR SESIÓN</a>
+        <a class="navbar-brand" [routerLink]="['/registro-persona']">REGISTRARSE</a>
+    </div>
+
+    <div class="nav-categorias">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/routePath']" >INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/registrar-producto']">REGISTRAR PRODUCTO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mi-catalogo']" >MI CATALOGO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mi-carrito']">CARRITO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/mi-cuenta']">MI CUENTA</a>
+            </li>
+        </ul>
+    </div>
+</div>
